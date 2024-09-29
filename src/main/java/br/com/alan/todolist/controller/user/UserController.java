@@ -1,13 +1,14 @@
-package br.com.alan.todolist.controller;
+package br.com.alan.todolist.controller.user;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-@RestController
-@RequestMapping("/task")
-public class MyController {
+@RestController()
+@RequestMapping("/users")
+public class UserController {
 
-  public String primeiraMensagem() {
+  public String create() {
+
     return "ok";
   }
 
